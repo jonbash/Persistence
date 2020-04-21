@@ -8,13 +8,13 @@
 import Foundation
 
 
-struct FetchOptions {
-    var predicate: NSPredicate?
-    var sorting: Sorting?
+public struct FetchOptions {
+    public var predicate: NSPredicate?
+    public var sorting: Sorting?
 }
 
 
-struct Sorting {
-    var key: String
-    var ascending: Bool = true
+public struct Sorting {
+    public var key: String
+    public var ascending: Bool = true
 }
