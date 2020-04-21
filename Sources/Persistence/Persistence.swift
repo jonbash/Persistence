@@ -1,3 +1,6 @@
+import Foundation
+
+
 protocol PersistentModel {
     static func deleteAll(in context: PersistentContext) throws
 }
